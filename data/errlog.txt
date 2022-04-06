@@ -1,0 +1,32 @@
+create-user julio.melo@imd.ufrn.br 12ab34cd Julio Melo
+disconnect 0
+disconnect 1
+create-server 0 minha-casa
+create-server 1 minha-casa
+set-server-desc 0 minha-casa “Este servidor serve como minha casa, sempre estarei nele”
+set-server-desc 1 minha-casa2 “Este servidor serve como minha casa, sempre estarei nele”
+set-server-invite-code 0 minha-casa 4567
+set-server-invite-code 1 minha-casa
+list-servers 0
+list-servers 1
+remove-server 0 minha-casa
+remove-server 1 aquele
+enter-server 0 aquele
+enter-server 1 aquele
+leave-server 0 aquele
+leave-server 1 aquele
+list-participants 0
+list-participants 1
+create-channel 0 casa-de-mae-joana
+create-channel 1 casa-de-mae-joana
+list-channels 0
+list-channels 1
+enter-channel 0 casa-de-mae-joana
+enter-channel 1 introspecção
+leave-channel 0
+leave-channel 1
+send-message 0 Oi pessoal querem TC?
+send-message 1 Oi pessoal querem TC?
+list-messages 0
+list-messages 1
+quit

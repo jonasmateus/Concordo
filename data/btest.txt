@@ -1,0 +1,41 @@
+create-user julio.melo@imd.ufrn.br 12ab34cd Julio Melo
+create-user julio.melo@imd.ufrn.br 12ab34cd Julio Cesar
+login julio.melo@imd.ufrn.br 12ab34cd
+login julio.melo@imd.ufrn.br 1326
+disconnect 0
+disconnect 0
+login julio.melo@imd.ufrn.br 12ab34cd
+create-server 0 minha-casa
+create-server 0 minha-casa
+set-server-desc 0 minha-casa “Este servidor serve como minha casa, sempre estarei nele”
+set-server-desc 0 minha-casa2 “Este servidor serve como minha casa, sempre estarei nele”
+create-user alguem 123 algum
+login alguem 123
+create-server 1 aquele
+set-server-desc 0 aquele “Trocando a descrição de servidor dos outros”
+set-server-invite-code 0 minha-casa 4567
+set-server-invite-code 0 minha-casa
+set-server-invite-code 0 minha-casa2 "inexistente"
+set-server-invite-code 0 aquele “Trocando o codigo de convite de servidor dos outros”
+list-servers 0
+remove-server 0 minha-casa
+enter-server 0 minha-casa
+remove-server 0 aquele
+remove-server 0 minha-casa
+enter-server 1 aquele
+leave-server 1 aquele
+leave-server 1 aquele
+enter-server 1 aquele
+list-participants 1
+create-channel 1 casa-de-mae-joana
+create-channel 1 casa-de-mae-joana
+list-channels 1
+enter-channel 1 casa-de-mae-joana
+enter-channel 1 introspecção
+leave-channel 1
+enter-channel 1 casa-de-mae-joana
+list-messages 1
+send-message 1 Oi pessoal querem TC?
+list-messages 1
+quit
+create-user naodeveprocessar@imd.ufrn.br naodevechegaraqui Não deve chegar aqui

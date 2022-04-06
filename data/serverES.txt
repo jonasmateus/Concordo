@@ -1,0 +1,22 @@
+create-user julio.melo@imd.ufrn.br 12ab34cd Julio Melo
+create-user alguem 123 algum
+login julio.melo@imd.ufrn.br 12ab34cd Julio Melo
+login alguem 123 algum
+create-server 0 minha-casa
+create-server 1 aquele
+leave-server 0 minha-casa
+enter-server 0 aquele
+leave-server 0 minha-casa
+enter-server 0 inexistente
+leave-server 0 inexistente
+leave-server 1 inexistente
+set-server-invite-code 0 minha-casa 4567
+enter-server 0 minha-casa
+enter-server 1 minha-casa
+enter-server 1 minha-casa 4567
+set-server-invite-code 0 minha-casa
+leave-server 1 minha-casa
+leave-server 0 minha-casa
+enter-server 1 minha-casa
+enter-server 0 minha-casa
+quit
